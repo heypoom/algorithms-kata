@@ -1,8 +1,8 @@
 import bfs from '@code/BTBFS'
-import { tree } from './tree'
+import { tree } from '../tests-helpers/tree'
 
 test('bt bfs', function () {
-    expect(bfs(tree, 45)).toEqual(true)
-    expect(bfs(tree, 7)).toEqual(true)
-    expect(bfs(tree, 69)).toEqual(false)
+  expect(bfs(tree, 45)).toEqual(true)
+  expect(bfs(tree, 7)).toEqual(true)
+  expect(bfs(tree, 69)).toEqual(false)
 })
