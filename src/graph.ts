@@ -4,10 +4,10 @@ export function add_node_list(
     to: number,
     weight: number,
 ): void {
-    let l = list[from];
+    let l = list[from]
     if (!l) {
-        l = list[from] = [];
+        l = list[from] = []
     }
 
-    l.push({ to, weight });
+    l.push({ to, weight })
 }

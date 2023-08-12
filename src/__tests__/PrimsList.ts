@@ -1,7 +1,7 @@
-import prims from "@code/PrimsAlgorithm";
-import { list1 } from "./graph";
+import prims from '@code/PrimsAlgorithm'
+import { list1 } from './graph'
 
-test("PrimsAlgorithm", function () {
+test('PrimsAlgorithm', function () {
     // there is only one right answer for this graph
     expect(prims(list1)).toEqual([
         [
@@ -26,5 +26,5 @@ test("PrimsAlgorithm", function () {
             { to: 5, weight: 1 },
             { to: 3, weight: 1 },
         ],
-    ]);
-});
+    ])
+})
