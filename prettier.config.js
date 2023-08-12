@@ -1,8 +1,8 @@
 module.exports = {
-    tabWidth: 4,
+    tabWidth: 2,
     printWidth: 80,
-    proseWrap: "never",
-    trailingComma: "all",
+    proseWrap: 'never',
+    trailingComma: 'all',
     singleQuote: true,
     semi: false,
-};
+}
