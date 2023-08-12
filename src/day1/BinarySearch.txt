@@ -1,0 +1,12 @@
+def binary_search(arr, lo, hi, n):
+	do:
+		m = lo + (hi - lo) / 2
+		v = arr[m]
+		if v == n:
+			return m
+		elif v > n:
+			lo = m + 1
+		else:
+			hi = m
+	while lo < hi:
+		return -1
